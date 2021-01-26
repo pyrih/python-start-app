@@ -1,13 +1,15 @@
-# Data types
+# Dynamically Type Language
 
-brand = "Brand"
-age = 7
-pi = 3.14
-numbers = []
-isAdult = True
+brand = "Some Brand"
 
-print(type(brand))
-print(type(age))
-print(type(pi))
-print(type(numbers))
-print(type(isAdult))
+name: str = "Dan"
+isEnable: bool = False
+
+
+def hello():
+    return "word"
+
+
+def bye() -> int:
+    return 7
+
