@@ -1,10 +1,30 @@
-one = 'first string'
-two = "second string"
+comment = "one " \
+          "two " \
+          "three"
 
-print(one.upper())
-print(len(two))
-print(one == "third string")
-print(one != "fourth string")
+multiline_comment = """
+four
+five
+six
+"""
 
-print("st st" in one)
-print("st st" not in one)
+print(comment)
+print(multiline_comment)
+
+name = "Jamila"
+email = """"
+hello {},
+how are you?
+"""
+print(email.format(name))
+
+last_name = "Smith"
+mail = f"""
+    hi {last_name},
+    Nice to meet you!
+    Age: {7 + 13}
+"""
+
+print(mail)
+
+
