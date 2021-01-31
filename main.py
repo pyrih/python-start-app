@@ -1,13 +1,12 @@
-# ASSIGNMENT OPERATORS
+# if statements
 
-brand = "Andrii"
-brand = "Pyrih"
-print(brand)
+num = 15
 
-number = 0
-number += 2  # number = number + 2
-number -= 1
-number *= 10
-number /= 5
-number **= 3
-print(number)
+if num > 0:
+    print(f"number {num} is positive")
+elif num == 0:
+    print(f"{num} is zero")
+else:
+    print(f"{num} is negative")
+
+
